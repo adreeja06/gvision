@@ -6,11 +6,9 @@ const Footer = () => {
     <div className=" bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-0">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">WellnessVista</h1>
+          <h1 className=" font-semibold text-xl pb-4">GlucoVision</h1>
           <p className=" text-sm">
-            Our team of dedicated doctors, each specializing in unique fields
-            such as orthopedics, cardiology, pediatrics, neurology, dermatology,
-            and more.
+          TEAR-GUIDED NON-INVASIVE BLOOD GLUCOSE MONITORING USING OPTICAL INTELLIGENCE
           </p>
         </div>
         <div>
@@ -41,7 +39,7 @@ const Footer = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Doctors
+              Team Members
             </Link>
           </nav>
         </div>
@@ -55,7 +53,7 @@ const Footer = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Lab Test
+              Easy Test Setup
             </Link>
             <Link
               to="services"
@@ -73,7 +71,7 @@ const Footer = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Heart Health
+              Easy Results
             </Link>
           </nav>
         </div>
@@ -81,13 +79,16 @@ const Footer = () => {
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
           <nav className=" flex flex-col gap-2">
             <Link to="/" spy={true} smooth={true} duration={500}>
-              123 Elm Street, Suite 456 Springfield, IL 62701 United States
+              
+Heritage Institute of Technology
+Chowbaga Road, Anandapur
+PO:East Kolkata Township, Kolkata 700 107
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
-              support@care.com
+              adreejamahto@gmail.com
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
-              +123-456-7890
+              +91 9163605787
             </Link>
           </nav>
         </div>
@@ -95,7 +96,7 @@ const Footer = () => {
       <div>
         <p className=" text-center py-4">
           @copyright developed by
-          <span className=" text-hoverColor"> champion programmers</span> | All
+          <span className=" text-hoverColor"> HITK team members </span> | All
           rights reserved
         </p>
       </div>

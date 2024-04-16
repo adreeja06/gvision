@@ -7,11 +7,7 @@ const ServicesCard = ({ icon, title }) => {
         {icon}
       </div>
       <h1 className=" font-semibold text-lg">{title}</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-        praesentium asperiores unde veniam, perspiciatis neque!
-      </p>
-
+      
       <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
         Learn more
       </h3>

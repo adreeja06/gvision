@@ -1,32 +1,17 @@
 import React from "react";
-import img from "../assets/img/about.jpg";
+import aboutImage from "../assets/img/about.jpg";
 
 const About = () => {
   return (
-    <div className=" min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
-      <div className=" w-full lg:w-3/4 space-y-4">
-        <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
-        <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
-        </p>
+    <div className="min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
+      <div className="w-full lg:w-3/4 space-y-4">
+        <h1 className="text-4xl font-semibold text-center lg:text-start">About The Project</h1>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+          We use eye tears as a bio-specimen. A chemical reaction using eye tears is initiated in a reaction cell. The reaction takes a certain amount of time (end time) to produce a colorless compound which is detected by an optical transceiver, attached to the cell. End time is a function of glucose concentration in blood. Sensor was calibrated and characterized using standard glucose solutions. Several performance metrics, including repeatability, sensitivity, accuracy, and interaction with interfering ions, were examined and found to be clinically appropriate. The device was tested with real-time blood samples and found satisfactory replacement of the present invasive techniques.
         </p>
       </div>
-      <div className=" w-full lg:w-3/4">
-        <img className=" rounded-lg" src={img} alt="img" />
+      <div className="w-full lg:w-3/4">
+        <img className="rounded-lg" src={aboutImage} alt="About" />
       </div>
     </div>
   );
