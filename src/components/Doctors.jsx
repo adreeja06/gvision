@@ -1,26 +1,27 @@
 import React, { useRef } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+
+// Import images
+import doc1 from "../assets/img/doc1.jpg"; // Adjust the path if needed
+import doc2 from "../assets/img/doc2.jpg"; // Adjust the path if needed
+import doc4 from "../assets/img/doc4.jpeg"; // Adjust the path if needed
 
 const TeamMembers = () => {
   const data = [
     {
-      img: "src/assets/img/doc1.jpg",
+      img: doc1,
       name: "Dipjyoti Kodali",
-      
     },
     {
-      img: "src/assets/img/doc2.jpg",
+      img: doc2,
       name: "Raunak Das",
-      
     },
     {
-      img: "src/assets/img/doc4.jpeg",
+      img: doc4,
       name: "Adreeja Mahato",
-      
     },
   ];
 
@@ -105,7 +106,6 @@ const TeamMembers = () => {
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h1 className="font-semibold text-xl pt-4">{member.name}</h1>
-                <h3 className="pt-2">{member.role}</h3>
               </div>
             </div>
           ))}
