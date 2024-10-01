@@ -11,7 +11,7 @@ const Home = () => {
         </h1>
       
 
-        <Button title="See Services" />
+        <Button title="Check your past records here" />
       </div>
     </div>
   );

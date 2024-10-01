@@ -18,23 +18,8 @@ const TeamMembers = () => {
       
     },
     {
-      img: "src/assets/img/doc3.jpg",
-      name: "Snehel Kar",
-    
-    },
-    {
       img: "src/assets/img/doc4.jpeg",
       name: "Adreeja Mahato",
-      
-    },
-    {
-      img: "src/assets/img/doc5.jpg",
-      name: "Sarthak Mitra",
-      
-    },
-    {
-      img: "src/assets/img/doc6.jpg",
-      name: "Tamoghno Chakravarty",
       
     },
   ];

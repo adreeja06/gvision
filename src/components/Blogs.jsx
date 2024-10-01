@@ -7,6 +7,7 @@ import img3 from "../assets/img/blog3.jpg";
 import img4 from "../assets/img/blog4.jpg";
 import img5 from "../assets/img/blog5.jpg";
 import img6 from "../assets/img/blog6.jpg";
+import edugraphImg from "../assets/img/edugraph.png"; // Importing the achievement image
 
 const Blogs = () => {
   return (
@@ -25,6 +26,8 @@ const Blogs = () => {
           <Button title="View All Articles" />
         </div>
       </div>
+
+      {/* Articles Section */}
       <div className="my-8">
         <div className="flex flex-wrap justify-center gap-5">
           <BlogCard img={img1} headlines="Understanding Type 1 Diabetes" />
@@ -34,6 +37,22 @@ const Blogs = () => {
           <BlogCard img={img5} headlines="Healthy Recipes for Diabetics" />
           <BlogCard img={img6} headlines="Mental Health and Diabetes: What You Need to Know" />
         </div>
+      </div>
+
+      {/* Our Achievements Section */}
+      <div className="my-8 flex flex-col items-center">
+        <h2 className="text-4xl font-semibold text-center">Our Achievements</h2>
+        <div className="my-4">
+          <img src={edugraphImg} alt="Edugraph Achievement" className="max-w-full h-auto" />
+        </div>
+        <a
+          href="https://www.telegraphindia.com/edugraph/campus/rcc-institute-of-information-technology-organises-2nd-edition-of-smart-bengal-hackathon-2024/cid/2014593"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline"
+        >
+          Read more about our achievement on Telegraph India
+        </a>
       </div>
     </div>
   );
