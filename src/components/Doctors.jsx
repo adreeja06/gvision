@@ -5,9 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 
 // Import images
-import doc1 from "../assets/img/doc1.jpg"; // Adjust the path if needed
-import doc2 from "../assets/img/doc2.jpg"; // Adjust the path if needed
-import doc4 from "../assets/img/doc4.jpeg"; // Adjust the path if needed
+import doc1 from "../assets/img/doc1.jpg"; // Dipjyoti Kodali
+import doc2 from "../assets/img/doc2.jpg"; // Raunak Das
+import doc3 from "../assets/img/doc3.jpeg"; // Adreeja Mahato
+import doc4 from "../assets/img/doc4.jpg"; // Snehel Kar
 
 const TeamMembers = () => {
   const data = [
@@ -20,8 +21,12 @@ const TeamMembers = () => {
       name: "Raunak Das",
     },
     {
-      img: doc4,
+      img: doc3,
       name: "Adreeja Mahato",
+    },
+    {
+      img: doc4,
+      name: "Snehel Kar",
     },
   ];
 
@@ -100,7 +105,7 @@ const TeamMembers = () => {
               <div>
                 <img
                   src={member.img}
-                  alt="Team Member"
+                  alt={member.name}
                   className="h-56 rounded-t-xl w-full"
                 />
               </div>
