@@ -7,7 +7,8 @@ import img3 from "../assets/img/blog3.jpg";
 import img4 from "../assets/img/blog4.jpg";
 import img5 from "../assets/img/blog5.jpg";
 import img6 from "../assets/img/blog6.jpg";
-import edugraphImg from "../assets/img/edugraph.png"; // Importing the achievement image
+import edugraphImg from "../assets/img/edugraph.png";
+import statuscodeImg from "../assets/img/statuscode.jpg"; // Importing StatusCode1 image
 
 const Blogs = () => {
   return (
@@ -42,9 +43,21 @@ const Blogs = () => {
       {/* Our Achievements Section */}
       <div className="my-8 flex flex-col items-center">
         <h2 className="text-4xl font-semibold text-center">Our Achievements</h2>
-        <div className="my-4">
-          <img src={edugraphImg} alt="Edugraph Achievement" className="max-w-full h-auto" />
+
+        {/* StatusCode Achievement */}
+        <div className="my-4 text-center">
+          <img src={statuscodeImg} alt="StatusCode1 Hackathon" className="max-w-full h-auto" />
+          <p className="mt-2 text-lg">
+            • Hardware Track Prize Winner at StatusCode1 Hackathon organized by IIIT Kalyani
+          </p>
         </div>
+
+        {/* Edugraph Achievement */}
+        <div className="my-4 text-center">
+          <img src={edugraphImg} alt="Edugraph Achievement" className="max-w-full h-auto" />
+          <p className="mt-2 text-lg">• Winner at Smart Bengal Hackathon</p>
+        </div>
+
         <a
           href="https://www.telegraphindia.com/edugraph/campus/rcc-institute-of-information-technology-organises-2nd-edition-of-smart-bengal-hackathon-2024/cid/2014593"
           target="_blank"

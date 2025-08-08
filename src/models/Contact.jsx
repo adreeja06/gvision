@@ -5,7 +5,7 @@ const Contact = ({ closeForm }) => {
   // Function to handle redirection
   const handleRedirect = (event) => {
     event.preventDefault(); // Prevent form submission
-    window.location.href = "https://consentiuminc.online/dashboard#/user/dashboard";
+    window.location.href = "https://consentiumiot.com/dashboard#/auth/login";
   };
 
   return (
